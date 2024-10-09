@@ -1,0 +1,62 @@
+# Version Control
+.git/
+.gitignore
+.gitattributes
+
+# Python Files
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pyo
+*.pdb
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+pip-log.txt
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+.Trash-*
+
+# Editor/IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build Artifacts
+build/
+dist/
+*.egg-info/
+
+# Node.js (if using)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Log Files
+*.log
+
+# Django Specific Files
+db.sqlite3
+media/
+staticfiles/
+
+# Docker Specific Files
+Dockerfile
+docker-compose.yml
+
+# Temporary Files
+tmp/
+temp/
+
+# Environment/Configuration Files
+.env
+.env.local
+

@@ -1,0 +1,18 @@
+
+
+{% extends 'base.html' %}
+
+{%block content%}
+
+<h1 class='text-center'>Author</h1>
+    {% for user in users %}
+        <div clas="card mb-3">
+            <div class="card-body">
+                <h2 class="card-title"><a href="{% url 'user_detail' user.pk%}">{{user.name}} {{user.lastname}}</a></h2>
+            </div>
+        </div>
+    {%empty%}
+        <p>No authors available.</p>
+    {% endfor %}
+{%endblock%}
+
